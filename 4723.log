@@ -1,0 +1,214 @@
+[35m[Appium][39m Welcome to Appium v1.13.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+[35m[Appium][39m Welcome to Appium v1.13.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at doListen (net.js:1510:7)
+    at _combinedTickCallback (internal/process/next_tick.js:142:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+[35m[Appium][39m Welcome to Appium v1.13.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+[35m[Appium][39m Welcome to Appium v1.13.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+[35m[Appium][39m Welcome to Appium v1.13.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+[35m[Appium][39m Welcome to Appium v1.13.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+[35m[Appium][39m Welcome to Appium v1.13.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:platformVersion":"6.0.1","appium:deviceName":"SM901","appium:udid":"b5f29bb2","appium:noReset":false,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:appPackage":"com.qihoo.livecloud.demo","appium:appActivity":"com.qihoo.videocloud.NavigationActivity"}]},"desiredCapabilities":{"platformName":"Android","platformVersion":"6.0.1","deviceName":"SM901","udid":"b5f29bb2","noReset":false,"unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.qihoo.livecloud.demo","appActivity":"com.qihoo.videocloud.NavigationActivity"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","platformVersion":"6.0.1","deviceName":"SM901","udid":"b5f29bb2","noReset":false,"unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.qihoo.livecloud.demo","appActivity":"com.qihoo.videocloud.NavigationActivity"},null,{"firstMatch":[{"platformName":"Android","appium:platformVersion":"6.0.1","appium:deviceName":"SM901","appium:udid":"b5f29bb2","appium:noReset":false,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:appPackage":"com.qihoo.livecloud.demo","appium:appActivity":"com.qihoo.videocloud.NavigationActivity"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1559791290022 (11:21:30 GMT+0800 (中国标准时间))
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator1' by default and using the 
+[35m[Appium][39m   UiAutomator1 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next minor version of Appium (1.14.x) will set 
+[35m[Appium][39m   'automationName=UiAutomator2' by default and use the UiAutomator2 
+[35m[Appium][39m   Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   If you are happy with 'UiAutomator1' and do not wish to upgrade 
+[35m[Appium][39m   Android drivers, please add 'automationName=UiAutomator1' to your 
+[35m[Appium][39m   desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[35m[Appium][39m Consider setting 'automationName' capability to 'UiAutomator2' on Android >= 6, since UIAutomator1 framework is not maintained anymore by the OS vendor.
+[35m[Appium][39m Appium v1.13.0 creating new AndroidDriver (v4.16.2) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   platformVersion: 6.0.1
+[35m[Appium][39m   deviceName: SM901
+[35m[Appium][39m   udid: b5f29bb2
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   unicodeKeyboard: true
+[35m[Appium][39m   resetKeyboard: true
+[35m[Appium][39m   appPackage: com.qihoo.livecloud.demo
+[35m[Appium][39m   appActivity: com.qihoo.videocloud.NavigationActivity
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformName":"Android","... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Session created with session id: 2520d2e6-0d28-43dc-a018-2a6a426c7d37
+[35m[ADB][39m Found 2 'build-tools' folders under 'C:\Users\liusixing\AppData\Local\Android\Sdk' (newest first):
+[35m[ADB][39m     C:/Users/liusixing/AppData/Local/Android/Sdk/build-tools/28.0.3
+[35m[ADB][39m     C:/Users/liusixing/AppData/Local/Android/Sdk/build-tools/25.0.0
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: b5f29bb2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to b5f29bb2
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 23
+[debug] [35m[ADB][39m Device API level: 23
+[35m[AndroidDriver][39m Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+[35m[AndroidDriver][39m App file was not listed, instead we're going to run com.qihoo.livecloud.demo directly on the device
+[debug] [35m[AndroidDriver][39m Checking whether package is present on the device
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell pm list packages com.qihoo.livecloud.demo'
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 wait-for-device'
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Using 'aapt.exe' from 'C:\Users\liusixing\AppData\Local\Android\Sdk\build-tools\28.0.3\aapt.exe'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade 'D:\tools\node-v8.14.0-win-x64\node_modules\appium\node_modules\_io.appium.settings@2.14.0@io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell pgrep -f io\\.appium\\.settings'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell appops set io.appium.settings android\:mock_location allow'
+[debug] [35m[Logcat][39m Starting logcat capture
+[debug] [35m[AndroidDriver][39m Enabling Unicode keyboard support
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell settings get secure default_input_method'
+[debug] [35m[AndroidDriver][39m Unsetting previous IME io.appium.settings/.UnicodeIME
+[debug] [35m[AndroidDriver][39m Setting IME to 'io.appium.settings/.UnicodeIME'
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell ime enable io.appium.settings/.UnicodeIME'
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell ime set io.appium.settings/.UnicodeIME'
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 6.0.1
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell wm size'
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': SM901
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': smartisan
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[debug] [35m[AndroidDriver][39m No app capability. Assuming it is already on the device
+[debug] [35m[ADB][39m Getting install status for com.qihoo.livecloud.demo
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell dumpsys package com.qihoo.livecloud.demo'
+[debug] [35m[ADB][39m 'com.qihoo.livecloud.demo' is installed
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell am force-stop com.qihoo.livecloud.demo'
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell pm clear com.qihoo.livecloud.demo'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.qihoo.livecloud.demo' application (stop and clear)
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 push D\:\\tools\\node-v8.14.0-win-x64\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.16.2\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell pgrep -f uiautomator'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","b5f29bb2","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.qihoo.livecloud.demo","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell am start -W -n com.qihoo.livecloud.demo/com.qihoo.videocloud.NavigationActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 2520d2e6-0d28-43dc-a018-2a6a426c7d37 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1559791301462 (11:21:41 GMT+0800 (中国标准时间))
+[debug] [35m[W3C (2520d2e6)][39m Cached the protocol value 'W3C' for the new session 2520d2e6-0d28-43dc-a018-2a6a426c7d37
+[debug] [35m[W3C (2520d2e6)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"6.0.1","deviceName":"SM901","udid":"b5f29bb2","noReset":false,"unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.qihoo.livecloud.demo","appActivity":"com.qihoo.videocloud.NavigationActivity"},"platformName":"Android","platformVersion":"6.0.1","deviceName":"b5f29bb2","udid":"b5f29bb2","noReset":false,"unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.qihoo.livecloud.demo","appActivity":"com.qihoo.videocloud.NavigationActivity","deviceUDID":"b5f29bb2","deviceScreenSize":"1080x1920","deviceModel":"SM901","deviceManufacturer":"smartisan"}}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11452 ms - 890[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2520d2e6-0d28-43dc-a018-2a6a426c7d37/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":5000,"sessionId":"2520d2e6-0d28-43dc-a018-2a6a426c7d37"}[39m
+[debug] [35m[W3C (2520d2e6)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"2520d2e6-0d28-43dc-a018-2a6a426c7d37"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C (2520d2e6)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2520d2e6-0d28-43dc-a018-2a6a426c7d37/timeouts [39m[32m200[39m [90m56 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 60 seconds for a command
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 2520d2e6-0d28-43dc-a018-2a6a426c7d37 from our master session list
+[debug] [35m[AndroidDriver][39m Resetting IME to io.appium.settings/.UnicodeIME
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell ime set io.appium.settings/.UnicodeIME'
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell am force-stop com.qihoo.livecloud.demo'
+[debug] [35m[ADB][39m Pressing the HOME button
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell input keyevent 3'
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[UiAutomator][39m Shutting down UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'stopping'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Closed client connection
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+[debug] [35m[UiAutomator][39m UiAutomator shut down normally
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell pgrep -f uiautomator'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Running 'C:\Users\liusixing\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5f29bb2 shell am force-stop io.appium.unlock'
+[debug] [35m[AndroidDriver][39m Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[35m[Appium][39m Welcome to Appium v1.13.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723

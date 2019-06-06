@@ -1,0 +1,17 @@
+platformName: Android
+platformVersion: 6.0.1
+deviceName: M960BDQB229W5
+udid: adsdz123123
+app: C:\Users\Shuqing\Desktop\Appium software\chapter4\App\kaoyan3.1.0.apk
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+appPackage: com.qihoo.livecloud.demo
+appActivity: com.qihoo.videocloud.NavigationActivity
+ip: 127.0.0.1
+port: 4723
+
+# 此文件内容，根据情况修改的地方很多
+
+
+
